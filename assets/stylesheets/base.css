@@ -1,0 +1,52 @@
+/*
+----------------------------------
+Base Styles
+---------------------------------- */
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-boz-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #555;
+  font-family: system, -apple-system, BlinkMacSystemFont, Avenir, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+input {
+  -webkit-appearance: none;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 8px 10px;
+}
+
+input:focus {
+  border-color: #479DD2;
+  box-shadow: 0 0 2px #479DD2;
+  outline: 0;
+}
+
+.main {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background: #333;
+  color: rgba(255,255,255, .6);
+  padding: 1rem;
+}
+
+.copyright {
+  display: inline-block;
+}
